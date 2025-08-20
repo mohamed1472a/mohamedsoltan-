@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>محمد سلطان - CV</title>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: #f4f6fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      background: linear-gradient(135deg, #1d2671, #c33764);
+      color: #fff;
+      padding: 50px 20px;
+    }
+    header h1 {
+      margin: 10px 0;
+      font-size: 2.2rem;
+    }
+    section {
+      max-width: 1000px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease-in-out;
+    }
+    h2 {
+      color: #c33764;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    footer {
+      text-align: center;
+      background: #222;
+      color: #fff;
+      padding: 15px;
+      margin-top: 40px;
+    }
+    a {
+      color: #c33764;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .btn {
+      display:inline-block;
+      background:#c33764;
+      color:#fff;
+      padding:12px 20px;
+      border-radius:8px;
+      text-decoration:none;
+      font-weight:bold;
+      transition:0.3s;
+    }
+    .btn:hover {
+      background:#a42a50;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>محمد حاتم محمد سلطان</h1>
+    <p>مصمم جرافيك | موشن جرافيك | فيديو إديتور</p>
+  </header>
+
+  <section>
+    <h2>نبذة عني</h2>
+    <p>
+      مرحبًا، أنا محمد سلطان، عمري 19 سنة. 
+      مصمم جرافيك خلصت كورسات في الجرافيك ديزاين والموشن جرافيك، 
+      وبسعى أطور نفسي بشكل مستمر.
+    </p>
+  </section>
+
+  <section>
+    <h2>المهارات</h2>
+    <ul>
+      <li>Adobe Photoshop</li>
+      <li>Adobe Illustrator</li>
+      <li>Adobe InDesign</li>
+      <li>Adobe After Effects</li>
+      <li>Adobe Premiere Pro</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>الدورات</h2>
+    <ul>
+      <li>كورسات في أكاديمية جينو</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>تحميل السيرة الذاتية</h2>
+    <p>
+      <a href="cv.pdf" download class="btn">⬇️ تحميل CV بصيغة PDF</a>
+    </p>
+  </section>
+
+  <section>
+    <h2>التواصل</h2>
+    <p>📧 <a href="mailto:mh8805879@gmail.com">mh8805879@gmail.com</a></p>
+    <p>📱 01003520994 / 01099792173</p>
+    <p>🌐 <a href="https://behance.net/mohamedsoltan22" target="_blank">Portfolio على Behance</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 محمد سلطان</p>
+  </footer>
+
+</body>
+</html>
